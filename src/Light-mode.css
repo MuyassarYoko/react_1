@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  transition: 1s;
+  padding: 10%;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(248, 149, 235);
+  }
+  /* .my_class{
+    color: #61dafb;
+  }
+  .p{
+    background: #051d4d;
+    color: aliceblue;
+  }
+  
+  .block{
+    display: flex;
+    justify-content: center;
+    background: rgb(210, 241, 255);
+  }
+  
+  .onclick{
+    border-radius: 5px;
+    background: rgb(226, 81, 154);
+  } */
+  
+  .div {
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  
+  .i {
+    width: 200px;
+    height: 100px;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .item-card{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
